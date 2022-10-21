@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row1{
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+}
+.main_left{
+   height: 100vh;
+    width: 17%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    background-color: white;
+}
+.main{
+    height: 100%;
+    width: 83%;
+     /* background-color: rgb(201, 198, 198);  */
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.header_lite{
+    height: 60px;
+    width:100% ;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.header input {
+    height: 35px;
+    width: 47%;
+    margin-left: 155px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+.button1 {
+    width: 5%;
+    height: 39px;
+    margin-top: 8px;
+}
+.button2 {
+    width: 4%;
+    height: 60%;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    border: none;
+}
+.header_right{
+    height: 60%;
+    width: 15%;
+    /* background-color: brown; */
+    margin-left: 130px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.right{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 9px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+}
+.flower{
+    height: 90%;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.logo {
+    height: 50px;
+    width: 90px ;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.liste {
+    margin-left: 50px;
+    height: 100%;
+    list-style: none;
+    position: sticky;
+    left: 0;
+}
+.gray {
+    color: rgb(158, 151, 151);
+}
+.buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    position: sticky;
+    background-color: rgb(255, 255, 255); 
+}
+.b1{
+    width: 3%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+    margin-left: 25px;
+}
+.b1:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b2{
+    width: 6%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b2:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b3{
+    width: 11%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b3:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b4{
+    width: 11%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b4:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b5{
+    width: 5%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b5:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b6{
+    width: 5%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b6:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b7{
+    width: 11%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b7:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b8{
+    width: 9%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b8:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b9{
+    width: 9%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+}
+.b9:hover{
+    background-color: rgb(229, 225, 225);
+}
+.b10{
+    width: 9%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 0;
+    margin-right: 15px;
+    
+}
+.b10:hover{
+    background-color: rgb(229, 225, 225);
+}
+
+.video {
+    width:  250px;
+    height: 250px; 
+    /* background-color: rgb(228, 144, 144); */
+}
+ .img {
+    height: 60%;
+    width: 100%;
+} 
+.buttom{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.buttom_left {
+    height:30%;
+    width: 30px; 
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-top: 5px;
+    /* background-color: brown; */
+} 
+.disc{ height: 40%;
+    width: 90%;
+    /* background-color: aqua; */
+    margin-left: 3px;
+}
+.name{
+    /* background-color: blue; */
+    color: rgba(0, 0, 0, 0.599);
+    margin-top: 7px;
+    margin-left: 3px;
+}
+.videos
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 96%;
+    height: 1200px;
+    /* background-color: blueviolet; */
+    margin-right: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
